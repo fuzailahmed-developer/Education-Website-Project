@@ -3,10 +3,8 @@ import { heroLogos } from '../constant/data'
 import { IoIosPlay } from "react-icons/io";
 import Marquee from 'react-fast-marquee';
 
-
 const Hero = () => {
     
-
     return (
         <section>
             <div className="container">
@@ -15,7 +13,7 @@ const Hero = () => {
                     {/* title */}
                     <div className='max-w-max mx-auto relative pt-8 pl-8'>
                         <span className='absolute top-0 left-0'>
-                            <img src="/public/images/shape-1.png" alt="shape" width={39} height={43} />
+                            <img src="/images/shape-1.png" alt="shape" width={39} height={43} />
                         </span>
                     <div className='flex items-center bg-white-99 border border-white-95 p-3.5 justify-center gap-2.5 max-w-max mx-auto flex-wrap'>
                         <span>
