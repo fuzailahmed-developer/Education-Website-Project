@@ -5,6 +5,8 @@ import Marquee from 'react-fast-marquee';
 
 
 const Hero = () => {
+    
+
     return (
         <section>
             <div className="container">
@@ -17,7 +19,7 @@ const Hero = () => {
                         </span>
                     <div className='flex items-center bg-white-99 border border-white-95 p-3.5 justify-center gap-2.5 max-w-max mx-auto flex-wrap'>
                         <span>
-                            <img src="/public/images/shape-2.png" alt="shape" width={48} height={48} />
+                            <img src="/images/shape-2.png" alt="shape" width={48} height={48} />
                         </span>
                         <h1 className='md:text-4xl text-2xl'><span className='text-orange-50'>Unlock</span> Your Creative Potential</h1>
                     </div>
@@ -63,7 +65,6 @@ const Hero = () => {
                             <IoIosPlay size={30}/>
                         </span>
                     </div>
-
                 </figure>
             </div>
         </section>
